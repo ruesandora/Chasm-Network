@@ -42,7 +42,7 @@ sudo docker run hello-world
 
 > Testnet cüzdanımızda fee'lik Mantle token olmalı 0.10$'lık yetiyor sanırım.
 
-> Sonra [buradan](https://scout.chasm.net/private-mint) bir Cashm Season hesap oluşturup mintleyelim ve setup yapalım.
+> Sonra [buradan](https://scout.chasm.net/private-mint) bir Chasm Season hesap oluşturup mintleyelim ve setup yapalım.
 
 > Bazı hesaplar açmalıyız, sırasıyla:
 
@@ -83,7 +83,7 @@ OPENAI_API_KEY=
 
 > Scout Name belirleyin.
 
-> Scout ID'iniz Cashm Season hesabınızda blurlu olan yerleri mausunuzu getirin gözükecek.
+> Scout ID'iniz [Chasm Season](https://scout.chasm.net/new-scout) hesabınızda blurlu olan yerleri mausunuzu getirin gözükecek.
 
 > Webhook API'da aynı şekilde.
 
