@@ -110,6 +110,9 @@ curl -X POST \
      -H "Authorization: Bearer $WEBHOOK_API_KEY" \
      -d '{"body":"{\"model\":\"gemma-7b-it\",\"messages\":[{\"role\":\"system\",\"content\":\"You are a helpful assistant.\"}]}"}' \
      $WEBHOOK_URL
+# port hatası alanlarbu komutlar ile hatayı ortadan kaldırabilir
+sudo ufw allow 3001
+sudo ufw allow 3001/tcp
 
 # bu komutla OK çıktısı aldıysak tamamdır.
 curl localhost:3001
